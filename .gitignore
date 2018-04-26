@@ -1,0 +1,8 @@
+//file
+*.iml
+web.xml
+*.xml
+
+#folder
+out/
+.idea/
