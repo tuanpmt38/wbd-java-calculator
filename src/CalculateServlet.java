@@ -15,7 +15,7 @@ public class CalculateServlet extends HttpServlet {
 
         PrintWriter printWriter = response.getWriter();
         printWriter.println("<html>");
-        printWriter.println("<h1>  Result: </h1>");
+        printWriter.println("<h1>  Result calculator : </h1>");
         try {
             double result = Calculate.calculator(number_1, number_2, operator);
             printWriter.println(number_1 + " " + operator + " " + number_2 + "=" + result);
