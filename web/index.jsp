@@ -27,10 +27,10 @@
       <h2>Simple Calculator</h2>
       <input type="text" name="first_number" size="30"  placeholder="First operand" />
       <select name="operator">
-        <option value="+">plus</option>
-        <option value="-">minus</option>
-        <option value="*">human</option>
-        <option value="/">share</option>
+        <option value="+">Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
       </select>
       <input type="text" name="second_number" size="30" placeholder="Second operand" />
       <input type="submit" value="Calculate"/>

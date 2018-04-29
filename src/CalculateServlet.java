@@ -19,8 +19,8 @@ public class CalculateServlet extends HttpServlet {
         try {
             double result = Calculate.calculator(number_1, number_2, operator);
             printWriter.println(number_1 + " " + operator + " " + number_2 + "=" + result);
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+            printWriter.println("Error: " + ex.getMessage());
         }
         printWriter.println("</html>");
     }
